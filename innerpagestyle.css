@@ -35,9 +35,3 @@ html, body{
 	border-radius: 10px;
 }
 
-@media only screen and (max-width: 500px){
-	.header{
-		font-size: 90px;
-	}
-
-}
