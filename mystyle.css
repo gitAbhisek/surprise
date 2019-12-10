@@ -87,3 +87,19 @@ html, body{
 	font-weight: bold;
 	color: red;
 }
+
+
+@media only screen and (max-width: 500px){
+	
+	.IntroPage h1{
+		font-size: 200px;
+		padding-top: 400px;
+	}
+	
+	.accessClass input[type=text]{
+		width: 350px;
+		font-size: 40px;
+	}
+	
+	
+}
