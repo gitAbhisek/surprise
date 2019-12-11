@@ -16,7 +16,11 @@ $(document).ready(function(){
 		var key = initialize();
 		console.log(key);
 		if(key == "Barnali")
-			window.location.href = "innerpage.html";
+		{
+			var url = encodeURIComponent("innerpage.html");
+			window.location.href = url;
+		
+		}
 		else
 			result.append("<p> ACCESS DENIED (name does not match) </p>");
 		return false;
