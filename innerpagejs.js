@@ -18,3 +18,12 @@ function play(x){
 	img[x-1].classList.add("infinite");
 	img[x-1].classList.add("slow");
 }
+
+function myFunction(x) {
+	var popup = document.getElementsByClassName("popup");
+	for(i=0; i<popup.length; i++)
+	{
+			popup[i].classList.remove("show");
+	}
+	popup[x-1].classList.add("show");
+}
